@@ -2,31 +2,31 @@
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { FaInternetExplorer, FaArtstation, FaChalkboardTeacher, FaCodeBranch, FaOpencart, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
 
  
 
 export const servicesData = [
-    // {
-    //     id: 1,
-    //     title: 'Marketing',
-    //     icon: <BiShoppingBag/>
-    // },
+    {
+        id: 1,
+        title: 'MidJourney',
+        icon: <FaArtstation/>
+    },
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
-    },
-    {
-        id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
+        title: 'ChatGPT',
+        icon: <FaOpencart /> 
     },
     // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
+    //     id: 3,
+    //     title: 'Email Marketing',
+    //     icon: <AiOutlineMail />
     // },
+    {
+        id: 4,
+        title: 'Internet Research',
+        icon: <FaInternetExplorer />
+    },
     // {
     //     id: 5,
     //     title: 'Tutoring',
@@ -40,8 +40,8 @@ export const servicesData = [
     },
     {
         id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        title: 'Full Stack Engineering',
+        icon: <FaCodeBranch />
     },
     // {
     //     id: 8,

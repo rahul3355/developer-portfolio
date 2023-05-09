@@ -71,18 +71,18 @@ function BlogPage() {
     return (
         <div className="blogPage" style={{backgroundColor: theme.secondary}}>
             <Helmet>
-                <title>{headerData.name} | Blog</title>
+                <title>Midjourney Artworks</title>
             </Helmet>
             <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>
-                <h1 style={{color: theme.secondary}}>Blogs</h1>
+                <h1 style={{color: theme.secondary}}>Midjourney Artworks</h1>
             </div>
             <div className="blogPage--container">
-                <div className="blog--search">
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search}/>
-                </div>
+                {/* <div className="blog--search">
+                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach art..." className={classes.search}/>
+                </div> */}
                 <div className="blogs--container">
                     <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
                         {filteredArticles.reverse().map(blog => (

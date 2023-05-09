@@ -4,6 +4,10 @@ import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 import {
     FaTwitter,
     FaLinkedinIn,
@@ -28,6 +32,8 @@ import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
 function Contacts() {
+    
+
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
@@ -288,7 +294,7 @@ function Contacts() {
                             <div className={classes.detailsIcon}>
                                 <FiAtSign />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p  style={{ color: theme.tertiary, fontSize: 17 }}>
                                 {contactsData.email}
                             </p>
                         </a>
