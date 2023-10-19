@@ -1,5 +1,5 @@
 import RahulPatil from '../assets/pdf/RahulPatil.pdf'
-import profileImg from '../assets/png/p1.jpg'
+import profileImg from '../assets/png/p2.jpg'
 
 export const headerData = {
     name: 'Rahul Patil',

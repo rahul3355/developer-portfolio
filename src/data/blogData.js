@@ -1,10 +1,9 @@
-import m6 from '../assets/png/m6.png'
-import m4 from '../assets/png/m4.png'
-import m12 from '../assets/png/m12.png'
-import m13 from '../assets/png/m13.png'
-import m14 from '../assets/png/m14.png'
-import m15 from '../assets/png/m15.png'
-import m16 from '../assets/png/m16.png'
+import m6 from '../assets/png/beaut.png'
+import m4 from '../assets/png/storm2.png'
+import m12 from '../assets/png/rocket.png'
+import m13 from '../assets/png/astro.png'
+import m15 from '../assets/png/violin.jpg'
+import m16 from '../assets/png/laptop.png'
 
 
 export const blogData = [
@@ -45,7 +44,7 @@ export const blogData = [
         title: 'GET MICHAEL\'S OR TREVOR\'S VEHICLES FULLY UPGRADED IN GTA V FOR FREE',
         description: 'In case you haven\'t heard of this game, GTA stands for \'Grand Theft Auto\'. It is an open-world game published by Rockstar Games.',
         date: 'Oct 1, 2020',
-        image: m14,
+        image: m15,
         url: 'https://hackzism.blogspot.com/2020/07/how-can-you-get-michaels-or-trevors.html'
     },
     {
