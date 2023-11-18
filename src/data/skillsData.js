@@ -1,28 +1,26 @@
- export const skillsData = [
-    'HTML',
-    'Javascript',
-    'CSS',
-    'React',
-    'Next JS',
-    'Angular',
-    'Photoshop',
-    'Illustrator',
-    'Premiere Pro',
-    'Azure',
-    'Bootstrap',
-    'Java',
-    'Python',
-    'Git',
-    'Canva',
-    'MongoDB',
-    'Firebase',
-    'MySQL',
-
-]
+export const skillsData = [
+  "HTML",
+  "Javascript",
+  "CSS",
+  "React",
+  "Next JS",
+  "Angular",
+  "Photoshop",
+  "Illustrator",
+  "Premiere Pro",
+  "Azure",
+  "Bootstrap",
+  "Java",
+  "Python",
+  "Git",
+  "Canva",
+  "MongoDB",
+  "Firebase",
+  "MySQL",
+];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
 
 // AVAILABLE SKILLS
 
@@ -105,4 +103,14 @@
     Tensorflow
     Webex
     Wordpress
+    Redux
+    Jest
+    Rust
+    Perl
+    Kubernets
+    Redux Saga
+    Github
+    Linux
+    Ubuntu
+    R Language
 */
